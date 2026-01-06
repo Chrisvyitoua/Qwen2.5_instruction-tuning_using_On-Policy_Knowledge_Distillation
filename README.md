@@ -2,7 +2,7 @@
 
 Distilling instruction-following capabilities from Qwen2.5-1.5B-Instruct into Qwen2.5-0.5B using Generalized Knowledge Distillation (GKD).
 
-## Overview
+#### Overview
 
 **Teacher:** `Qwen/Qwen2.5-1.5B-Instruct` (1.5B params)
 **Student:** `Qwen/Qwen2.5-0.5B` (0.5B params)
@@ -10,7 +10,7 @@ Distilling instruction-following capabilities from Qwen2.5-1.5B-Instruct into Qw
 **Dataset:** `yahma/alpaca-cleaned` 
 **Framework:** HuggingFace TRL (`GKDTrainer`) 
 
-## Technique: On-Policy Knowledge Distillation
+#### Technique: On-Policy Knowledge Distillation
 
 Unlike standard (off-policy) distillation where the student learns from fixed data, **GKD uses on-policy learning**:
 
@@ -20,7 +20,7 @@ Unlike standard (off-policy) distillation where the student learns from fixed da
 
 **Reference:** [On-Policy Distillation of Language Models](https://arxiv.org/abs/2306.13649) (Agarwal et al., Google DeepMind, 2024)
 
-## Key Findings
+#### Key Findings
 
 - **Behavior transfer:** Qwen2.5-0.5B successfully learned the instruction-response format.
 - **Cleaner outputs:** Distilled model produces more focused, concise responses as compared to base model.
@@ -31,7 +31,7 @@ Unlike standard (off-policy) distillation where the student learns from fixed da
 └── README.md
 ```
 
-## How to Run
+#### How to Run
 
 1. Open `distilled_qwen_0.5b_instruct.ipynb` in Google Colab
 2. Change runtime: **Runtime → Change runtime type → A100 GPU**
