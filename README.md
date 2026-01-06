@@ -25,7 +25,7 @@ Unlike standard (off-policy) distillation where the student learns from fixed da
 - **Behavior transfer:** Qwen2.5-0.5B successfully learned the instruction-response format.
 - **Cleaner outputs:** Distilled model produces more focused, concise responses as compared to base model.
 
-## Repository Structure
+#### Repository Structure
 ```
 ├── distilled_qwen_0.5b_instruct.ipynb   # Training notebook              # Model comparison notebook
 └── README.md
