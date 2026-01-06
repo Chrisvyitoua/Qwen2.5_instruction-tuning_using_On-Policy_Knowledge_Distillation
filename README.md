@@ -1,4 +1,4 @@
-# Qwen2.5 Instruction-Tuning via On-Policy Knowledge Distillation
+### Qwen2.5 Instruction-Tuning via On-Policy Knowledge Distillation
 
 Distilling instruction-following capabilities from Qwen2.5-1.5B-Instruct into Qwen2.5-0.5B using Generalized Knowledge Distillation (GKD).
 
