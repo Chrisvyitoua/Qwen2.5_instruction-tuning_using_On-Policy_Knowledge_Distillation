@@ -14,9 +14,9 @@ Distilling instruction-following capabilities from Qwen2.5-1.5B-Instruct into Qw
 
 Unlike standard (off-policy) distillation where the student learns from fixed data, **GKD uses on-policy learning**:
 
-1. Student **generates** its own response to a prompt
-2. Teacher **evaluates** the student's generation
-3. Student **learns** from teacher's feedback on its own outputs
+1. Student **generates** its own response to a prompt.
+2. Teacher **evaluates** the student's generation.
+3. Student **learns** from teacher's feedback on its own outputs.
 
 #### Key Findings
 
