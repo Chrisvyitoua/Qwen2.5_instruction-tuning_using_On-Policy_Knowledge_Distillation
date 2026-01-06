@@ -4,11 +4,11 @@ Distilling instruction-following capabilities from Qwen2.5-1.5B-Instruct into Qw
 
 #### Overview
 
-**Teacher:** `Qwen/Qwen2.5-1.5B-Instruct` (1.5B params)
-**Student:** `Qwen/Qwen2.5-0.5B` (0.5B params)
-**Technique:** GKD (Generalized Knowledge Distillation) - On-Policy 
-**Dataset:** `yahma/alpaca-cleaned` 
-**Framework:** HuggingFace TRL (`GKDTrainer`) 
+* **Teacher:** `Qwen/Qwen2.5-1.5B-Instruct` (1.5B params)
+* **Student:** `Qwen/Qwen2.5-0.5B` (0.5B params)
+* **Technique:** GKD (Generalized Knowledge Distillation) - On-Policy 
+* **Dataset:** `yahma/alpaca-cleaned` 
+* **Framework:** HuggingFace TRL (`GKDTrainer`) 
 
 #### Technique: On-Policy Knowledge Distillation
 
