@@ -18,8 +18,6 @@ Unlike standard (off-policy) distillation where the student learns from fixed da
 2. Teacher **evaluates** the student's generation
 3. Student **learns** from teacher's feedback on its own outputs
 
-**Reference:** [On-Policy Distillation of Language Models](https://arxiv.org/abs/2306.13649) (Agarwal et al., Google DeepMind, 2024)
-
 #### Key Findings
 
 - **Behavior transfer:** Qwen2.5-0.5B successfully learned the instruction-response format.
@@ -27,14 +25,16 @@ Unlike standard (off-policy) distillation where the student learns from fixed da
 
 #### Repository Structure
 ```
-├── distilled_qwen_0.5b_instruct.ipynb   # Training notebook              # Model comparison notebook
+├── distilled_qwen_0.5b_instruct.ipynb   # Training notebook            
 └── README.md
 ```
+**Estimated training time:** ~2-6+ hours on A100 (depending on settings)
 
-#### How to Run
+#### How to run
 
 1. Open `distilled_qwen_0.5b_instruct.ipynb` in Google Colab
 2. Change runtime: **Runtime → Change runtime type → A100 GPU**
 3. Run all cells
 
-**Estimated training time:** ~2-6+ hours on A100 (depending on settings)
+
+**Reference:** [On-Policy Distillation of Language Models](https://arxiv.org/abs/2306.13649) (Agarwal et al., Google DeepMind, 2024)
